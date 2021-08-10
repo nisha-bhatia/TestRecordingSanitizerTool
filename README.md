@@ -1,0 +1,2 @@
+# TestRecordingSanitizerTool
+TestRecordingSanitizerTool
