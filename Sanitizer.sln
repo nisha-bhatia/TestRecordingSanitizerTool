@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanitizer", "Sanitizer\Sanitizer.csproj", "{3E419FE9-7F0C-4859-87EA-607E034BB8CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.Core.TestFramework", "..\azure-sdk-for-net\sdk\core\Azure.Core.TestFramework\src\Azure.Core.TestFramework.csproj", "{6E85FD13-5F35-4625-A915-F843133FB9A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E419FE9-7F0C-4859-87EA-607E034BB8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E419FE9-7F0C-4859-87EA-607E034BB8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E419FE9-7F0C-4859-87EA-607E034BB8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E419FE9-7F0C-4859-87EA-607E034BB8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E85FD13-5F35-4625-A915-F843133FB9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E85FD13-5F35-4625-A915-F843133FB9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E85FD13-5F35-4625-A915-F843133FB9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E85FD13-5F35-4625-A915-F843133FB9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {315E0820-8FC1-44D1-9254-6D5352E04991}
+	EndGlobalSection
+EndGlobal
