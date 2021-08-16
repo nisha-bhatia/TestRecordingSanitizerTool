@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Azure.Core/1.16.0": {
+      "Azure.Core/1.17.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
@@ -1415,11 +1415,11 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "Azure.Core.TestFramework/1.0.0-alpha.20210810.1": {
+      "Azure.Core.TestFramework/1.0.0-alpha.20210815.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Azure.Core": "1.16.0",
+          "Azure.Core": "1.17.0",
           "Azure.Identity": "1.4.0",
           "Microsoft.NET.Test.Sdk": "16.8.0",
           "Moq": "4.10.1",
@@ -1437,16 +1437,16 @@
     }
   },
   "libraries": {
-    "Azure.Core/1.16.0": {
-      "sha512": "DT/d7TTwBiyU/Me0MISk7qFDGeFUBlZoLXJKWrXN86oSRieaeeYZ+LKN4dINkWQ0VMEqv6FlhY4AbAdPiGan6w==",
+    "Azure.Core/1.17.0": {
+      "sha512": "ByJGsP7zqeMG+QFLEpd0ILzWVlRtB1ZWwgkqNWEN2KV0axRyWZDm6uPsKtsfBkNeiPtr4fUW0NSZez69TBSGrA==",
       "type": "package",
-      "path": "azure.core/1.16.0",
+      "path": "azure.core/1.17.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.core.1.16.0.nupkg.sha512",
+        "azure.core.1.17.0.nupkg.sha512",
         "azure.core.nuspec",
         "lib/net461/Azure.Core.dll",
         "lib/net461/Azure.Core.xml",
@@ -5265,7 +5265,7 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "Azure.Core.TestFramework/1.0.0-alpha.20210810.1": {
+    "Azure.Core.TestFramework/1.0.0-alpha.20210815.1": {
       "type": "project",
       "path": "../../azure-sdk-for-net/sdk/core/Azure.Core.TestFramework/src/Azure.Core.TestFramework.csproj",
       "msbuildProject": "../../azure-sdk-for-net/sdk/core/Azure.Core.TestFramework/src/Azure.Core.TestFramework.csproj"
@@ -5273,7 +5273,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Azure.Core.TestFramework >= 1.0.0-alpha.20210810.1"
+      "Azure.Core.TestFramework >= 1.0.0-alpha.20210815.1"
     ]
   },
   "packageFolders": {
@@ -5284,9 +5284,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\Sanitizer.csproj",
-      "projectName": "Sanitizer",
-      "projectPath": "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\Sanitizer.csproj",
+      "projectUniqueName": "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\Track2TestRecordingSanitizer.csproj",
+      "projectName": "Track2TestRecordingSanitizer",
+      "projectPath": "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\Track2TestRecordingSanitizer.csproj",
       "packagesPath": "C:\\Users\\nibhati\\.nuget\\packages\\",
       "outputPath": "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\obj\\",
       "projectStyle": "PackageReference",
@@ -5340,7 +5340,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

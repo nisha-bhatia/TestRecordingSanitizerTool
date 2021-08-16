@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\Sanitizer.csproj": {}
+    "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\Track2TestRecordingSanitizer.csproj": {}
   },
   "projects": {
     "C:\\GitHub\\azure-sdk-for-net\\sdk\\core\\Azure.Core.TestFramework\\src\\Azure.Core.TestFramework.csproj": {
@@ -314,12 +314,12 @@
         }
       }
     },
-    "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\Sanitizer.csproj": {
+    "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\Track2TestRecordingSanitizer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\Sanitizer.csproj",
-        "projectName": "Sanitizer",
-        "projectPath": "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\Sanitizer.csproj",
+        "projectUniqueName": "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\Track2TestRecordingSanitizer.csproj",
+        "projectName": "Track2TestRecordingSanitizer",
+        "projectPath": "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\Track2TestRecordingSanitizer.csproj",
         "packagesPath": "C:\\Users\\nibhati\\.nuget\\packages\\",
         "outputPath": "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\obj\\",
         "projectStyle": "PackageReference",

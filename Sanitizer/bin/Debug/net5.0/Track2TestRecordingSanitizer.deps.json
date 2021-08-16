@@ -6,22 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Azure.Core.TestFramework/1.0.0-alpha.20210815.1": {
+      "Track2TestRecordingSanitizer/1.0.0": {
         "dependencies": {
-          "Azure.Core": "1.17.0",
-          "Azure.Identity": "1.4.0",
-          "Microsoft.Azure.AutoRest.CSharp": "3.0.0-beta.20210805.1",
-          "Microsoft.NET.Test.Sdk": "16.8.0",
-          "Microsoft.SourceLink.GitHub": "1.0.0",
-          "Moq": "4.10.1",
-          "NUnit": "3.13.2",
-          "NUnit3TestAdapter": "3.17.0",
-          "Newtonsoft.Json": "10.0.3",
-          "SauceControl.InheritDoc": "1.2.0",
-          "StyleCop.Analyzers": "1.2.0-beta.333"
+          "Azure.Core.TestFramework": "1.0.0-alpha.20210815.1"
         },
         "runtime": {
-          "Azure.Core.TestFramework.dll": {}
+          "Track2TestRecordingSanitizer.dll": {}
         }
       },
       "Azure.Core/1.17.0": {
@@ -80,7 +70,6 @@
           }
         }
       },
-      "Microsoft.Azure.AutoRest.CSharp/3.0.0-beta.20210805.1": {},
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -89,7 +78,6 @@
           }
         }
       },
-      "Microsoft.Build.Tasks.Git/1.0.0": {},
       "Microsoft.CodeCoverage/16.8.0": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -164,13 +152,6 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Microsoft.SourceLink.Common/1.0.0": {},
-      "Microsoft.SourceLink.GitHub/1.0.0": {
-        "dependencies": {
-          "Microsoft.Build.Tasks.Git": "1.0.0",
-          "Microsoft.SourceLink.Common": "1.0.0"
-        }
-      },
       "Microsoft.TestPlatform.ObjectModel/16.8.0": {
         "dependencies": {
           "NuGet.Frameworks": "5.0.0"
@@ -511,13 +492,6 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
-      "SauceControl.InheritDoc/1.2.0": {},
-      "StyleCop.Analyzers/1.2.0-beta.333": {
-        "dependencies": {
-          "StyleCop.Analyzers.Unstable": "1.2.0.333"
-        }
-      },
-      "StyleCop.Analyzers.Unstable/1.2.0.333": {},
       "System.AppContext/4.1.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1005,11 +979,25 @@
             "fileVersion": "4.6.24705.1"
           }
         }
+      },
+      "Azure.Core.TestFramework/1.0.0-alpha.20210815.1": {
+        "dependencies": {
+          "Azure.Core": "1.17.0",
+          "Azure.Identity": "1.4.0",
+          "Microsoft.NET.Test.Sdk": "16.8.0",
+          "Moq": "4.10.1",
+          "NUnit": "3.13.2",
+          "NUnit3TestAdapter": "3.17.0",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "runtime": {
+          "Azure.Core.TestFramework.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "Azure.Core.TestFramework/1.0.0-alpha.20210815.1": {
+    "Track2TestRecordingSanitizer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1035,26 +1023,12 @@
       "path": "castle.core/4.3.1",
       "hashPath": "castle.core.4.3.1.nupkg.sha512"
     },
-    "Microsoft.Azure.AutoRest.CSharp/3.0.0-beta.20210805.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-qZI7aycDeUwh6/AqwWWVbCkJt6DXM6/Z8eq8PjnLMYgBEnZB8VrJxWchTDFvjc0L/u6I/c5R+GqmSvOo1gRCAg==",
-      "path": "microsoft.azure.autorest.csharp/3.0.0-beta.20210805.1",
-      "hashPath": "microsoft.azure.autorest.csharp.3.0.0-beta.20210805.1.nupkg.sha512"
-    },
     "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
       "path": "microsoft.bcl.asyncinterfaces/1.0.0",
       "hashPath": "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512"
-    },
-    "Microsoft.Build.Tasks.Git/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-z2fpmmt+1Jfl+ZnBki9nSP08S1/tbEOxFdsK1rSR+LBehIJz1Xv9/6qOOoGNqlwnAGGVGis1Oj6S8Kt9COEYlQ==",
-      "path": "microsoft.build.tasks.git/1.0.0",
-      "hashPath": "microsoft.build.tasks.git.1.0.0.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/16.8.0": {
       "type": "package",
@@ -1111,20 +1085,6 @@
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
-    },
-    "Microsoft.SourceLink.Common/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-G8DuQY8/DK5NN+3jm5wcMcd9QYD90UV7MiLmdljSJixi3U/vNaeBKmmXUqI4DJCOeWizIUEh4ALhSt58mR+5eg==",
-      "path": "microsoft.sourcelink.common/1.0.0",
-      "hashPath": "microsoft.sourcelink.common.1.0.0.nupkg.sha512"
-    },
-    "Microsoft.SourceLink.GitHub/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-aZyGyGg2nFSxix+xMkPmlmZSsnGQ3w+mIG23LTxJZHN+GPwTQ5FpPgDo7RMOq+Kcf5D4hFWfXkGhoGstawX13Q==",
-      "path": "microsoft.sourcelink.github/1.0.0",
-      "hashPath": "microsoft.sourcelink.github.1.0.0.nupkg.sha512"
     },
     "Microsoft.TestPlatform.ObjectModel/16.8.0": {
       "type": "package",
@@ -1202,27 +1162,6 @@
       "sha512": "sha512-c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "path": "runtime.native.system/4.3.0",
       "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
-    },
-    "SauceControl.InheritDoc/1.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-6/SPY5RjYvG7aSDoHMBsecUzKvU+zy+9Q2gN4NAU+ESZnMUA/hkRvvPCNqyDleojEM5uUBqesiwHhUCk8XOIfQ==",
-      "path": "saucecontrol.inheritdoc/1.2.0",
-      "hashPath": "saucecontrol.inheritdoc.1.2.0.nupkg.sha512"
-    },
-    "StyleCop.Analyzers/1.2.0-beta.333": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-o2r6o6TVTb6VdTtWEYT88/SgixcujjZ3gXMktvI/aNkA3y0CxUSVZEL23OjFe4/sDiTvldkdhKEyAQP9Z8r5wA==",
-      "path": "stylecop.analyzers/1.2.0-beta.333",
-      "hashPath": "stylecop.analyzers.1.2.0-beta.333.nupkg.sha512"
-    },
-    "StyleCop.Analyzers.Unstable/1.2.0.333": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-7mwxcwa3xZnyU71OTqSgntCDpsZ5gkc4saXhuJeyg5Xc+3xiQxzyhy26uG8rVF8Z7GKpXCsHCL3rd5ZomA+a/A==",
-      "path": "stylecop.analyzers.unstable/1.2.0.333",
-      "hashPath": "stylecop.analyzers.unstable.1.2.0.333.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",
@@ -1615,6 +1554,11 @@
       "sha512": "sha512-A/uxsWi/Ifzkmd4ArTLISMbfFs6XpRPsXZonrIqyTY70xi8t+mDtvSM5Os0RqyRDobjMBwIDHDL4NOIbkDwf7A==",
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "Azure.Core.TestFramework/1.0.0-alpha.20210815.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
