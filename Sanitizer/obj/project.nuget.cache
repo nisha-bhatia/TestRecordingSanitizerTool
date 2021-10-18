@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7Dng8L8wI/2iWNUessnAkwNCQ12jVSNjJ+nULL8E4PZ736VbEG4bD91S+KkFaKWHqYfx2Gh/VVCM4SWycCaQDg==",
+  "dgSpecHash": "sUYN7fDnLb9AfV2OhsOa+VqrgImTclUA0NlrQ12Fe/bunc68hTk7SVaT6Hl80XxMDiNlJt0dGvOEdHCsYSpJqQ==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\TestRecordingSanitizerTool\\Sanitizer\\Track2TestRecordingSanitizer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nibhati\\.nuget\\packages\\azure.core\\1.17.0\\azure.core.1.17.0.nupkg.sha512",
+    "C:\\Users\\nibhati\\.nuget\\packages\\azure.core\\1.19.0\\azure.core.1.19.0.nupkg.sha512",
     "C:\\Users\\nibhati\\.nuget\\packages\\azure.identity\\1.4.0\\azure.identity.1.4.0.nupkg.sha512",
     "C:\\Users\\nibhati\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",
     "C:\\Users\\nibhati\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",

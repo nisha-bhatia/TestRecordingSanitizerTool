@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Azure.Core/1.17.0": {
+      "Azure.Core/1.19.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
@@ -1415,11 +1415,11 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "Azure.Core.TestFramework/1.0.0-alpha.20210815.1": {
+      "Azure.Core.TestFramework/1.0.0-alpha.20211006.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Azure.Core": "1.17.0",
+          "Azure.Core": "1.19.0",
           "Azure.Identity": "1.4.0",
           "Microsoft.NET.Test.Sdk": "16.8.0",
           "Moq": "4.10.1",
@@ -1437,16 +1437,16 @@
     }
   },
   "libraries": {
-    "Azure.Core/1.17.0": {
-      "sha512": "ByJGsP7zqeMG+QFLEpd0ILzWVlRtB1ZWwgkqNWEN2KV0axRyWZDm6uPsKtsfBkNeiPtr4fUW0NSZez69TBSGrA==",
+    "Azure.Core/1.19.0": {
+      "sha512": "lcDjG635DPE4fU5tqSueVMmzrx0QrIfPuY0+y6evHN5GanQ0GB+/4nuMHMmoNPwEow6OUPkJu4cZQxfHJQXPdA==",
       "type": "package",
-      "path": "azure.core/1.17.0",
+      "path": "azure.core/1.19.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.core.1.17.0.nupkg.sha512",
+        "azure.core.1.19.0.nupkg.sha512",
         "azure.core.nuspec",
         "lib/net461/Azure.Core.dll",
         "lib/net461/Azure.Core.xml",
@@ -5265,7 +5265,7 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "Azure.Core.TestFramework/1.0.0-alpha.20210815.1": {
+    "Azure.Core.TestFramework/1.0.0-alpha.20211006.1": {
       "type": "project",
       "path": "../../azure-sdk-for-net/sdk/core/Azure.Core.TestFramework/src/Azure.Core.TestFramework.csproj",
       "msbuildProject": "../../azure-sdk-for-net/sdk/core/Azure.Core.TestFramework/src/Azure.Core.TestFramework.csproj"
@@ -5273,7 +5273,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Azure.Core.TestFramework >= 1.0.0-alpha.20210815.1"
+      "Azure.Core.TestFramework >= 1.0.0-alpha.20211006.1"
     ]
   },
   "packageFolders": {
@@ -5340,7 +5340,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -10,7 +10,8 @@ namespace Track2TestRecordingSanitizer
     {
         static void Main(string[] args)
         {
-            ProcessDirectory("C:/GitHub/azure-sdk-for-net/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/tests");
+            ProcessDirectory("C:/GitHub/azure-sdk-for-net/sdk/cosmosdb/Azure.ResourceManager.CosmosDB/tests");
+            //ProcessDirectory("C:/GitHub/azure-sdk-for-net/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/tests");
             foreach (var filename in filenames)
             {
                 if (!filename.Contains(".json"))

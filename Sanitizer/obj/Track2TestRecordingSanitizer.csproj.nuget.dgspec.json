@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\GitHub\\azure-sdk-for-net\\sdk\\core\\Azure.Core.TestFramework\\src\\Azure.Core.TestFramework.csproj": {
-      "version": "1.0.0-alpha.20210815.1",
+      "version": "1.0.0-alpha.20211006.1",
       "restore": {
         "projectUniqueName": "C:\\GitHub\\azure-sdk-for-net\\sdk\\core\\Azure.Core.TestFramework\\src\\Azure.Core.TestFramework.csproj",
         "projectName": "Azure.Core.TestFramework",
@@ -67,7 +67,7 @@
           "dependencies": {
             "Azure.Core": {
               "target": "Package",
-              "version": "[1.17.0, )"
+              "version": "[1.19.0, )"
             },
             "Azure.Identity": {
               "target": "Package",
@@ -76,7 +76,7 @@
             "Microsoft.Azure.AutoRest.CSharp": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-beta.20210805.1, )"
+              "version": "[3.0.0-beta.20210915.2, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -130,14 +130,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         },
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
             "Azure.Core": {
               "target": "Package",
-              "version": "[1.17.0, )"
+              "version": "[1.19.0, )"
             },
             "Azure.Identity": {
               "target": "Package",
@@ -146,7 +146,7 @@
             "Microsoft.Azure.AutoRest.CSharp": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-beta.20210805.1, )"
+              "version": "[3.0.0-beta.20210915.2, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -200,14 +200,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         },
         "net461": {
           "targetAlias": "net461",
           "dependencies": {
             "Azure.Core": {
               "target": "Package",
-              "version": "[1.17.0, )"
+              "version": "[1.19.0, )"
             },
             "Azure.Identity": {
               "target": "Package",
@@ -216,7 +216,7 @@
             "Microsoft.Azure.AutoRest.CSharp": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-beta.20210805.1, )"
+              "version": "[3.0.0-beta.20210915.2, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -255,14 +255,14 @@
               "version": "[1.2.0-beta.333, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         },
         "net47": {
           "targetAlias": "net47",
           "dependencies": {
             "Azure.Core": {
               "target": "Package",
-              "version": "[1.17.0, )"
+              "version": "[1.19.0, )"
             },
             "Azure.Identity": {
               "target": "Package",
@@ -271,7 +271,7 @@
             "Microsoft.Azure.AutoRest.CSharp": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-beta.20210805.1, )"
+              "version": "[3.0.0-beta.20210915.2, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -310,7 +310,7 @@
               "version": "[1.2.0-beta.333, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -373,7 +373,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         }
       }
     }
